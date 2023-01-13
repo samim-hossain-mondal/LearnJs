@@ -3,7 +3,7 @@ function isPrime(n) {
     return false;
   }
   let c = 0;
-  for (let i = 1; i < Math.sqrt(n); i++) {
+  for (let i = 1; i <= n; i++) {
     if (n % i == 0) {
       c++;
     }
@@ -27,3 +27,7 @@ function isAmstrong(n) {
   }
   return false;
 }
+
+console.log(isPrime(23));
+console.log(isPrime(21));
+console.log(isAmstrong(9474));
