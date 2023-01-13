@@ -63,4 +63,4 @@ let amstrong = (n) => {
 console.log(isPrime(23));
 console.log(prime(21));
 console.log(amstrong(9474));
-console.log(isAmstrong(123));
+console.log(amstrong(123));
