@@ -59,3 +59,5 @@ let amstrong = (n) => {
   }
   return false;
 };
+
+module.exports = { isPrime, isAmstrong };
