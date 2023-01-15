@@ -1,19 +1,11 @@
 {
-  "name": "learnjs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "introduction.js",
+  "dependencies": {
+    "node": "^19.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samim-hossain-mondal/learnJS.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samim-hossain-mondal/learnJS/issues"
-  },
-  "homepage": "https://github.com/samim-hossain-mondal/learnJS#readme"
+    "test": "jest"
+  }
 }
