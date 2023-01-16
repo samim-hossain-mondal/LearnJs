@@ -29,7 +29,6 @@ let prime = (n) => {
   }
   return false;
 };
-
 function isAmstrong(n) {
   let str = n.toString();
   let l = str.length;
@@ -60,4 +59,4 @@ let amstrong = (n) => {
   return false;
 };
 
-module.exports = { isPrime, isAmstrong };
+module.exports = { isPrime, isAmstrong, prime, amstrong };
