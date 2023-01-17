@@ -4,6 +4,6 @@ const doubleNumbers = (numbers) => {
     }
     return numbers.map(item => item * 2);
 };
-
 //console.log(doubleNumbers([]));
+
 module.exports = { doubleNumbers };
